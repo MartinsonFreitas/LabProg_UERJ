@@ -15,8 +15,7 @@ int main() {
                 espaco = 1;// marca que o último foi espaço
 				}
 			printf("\n");
-			espaco = 0;    // reseta a flag
-			
+			espaco = 0;    // reseta a flag		
 			
         // se já foi espaço, ignora
         } else {

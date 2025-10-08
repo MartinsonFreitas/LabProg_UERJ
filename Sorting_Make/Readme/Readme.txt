@@ -1,4 +1,6 @@
-Objetivo
+
+Objetivo do exercício:
+
 1. Criar um programa que gere vetores de números inteiros aleatórios com tamanhos:
     1.000
     10.000

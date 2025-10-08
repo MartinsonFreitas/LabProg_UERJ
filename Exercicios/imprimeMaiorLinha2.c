@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <string.h>
+
 #define MAXLINHA 10 //tamanho máximo da linha entrada
 
 int lelinha (char linha[], int maxlinha);
-
 void copia (char para[], char de[]);
-/* imprime maior linha entrada */
 
+/* imprime maior linha entrada */
 int main(void)
 {
 

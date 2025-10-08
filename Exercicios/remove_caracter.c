@@ -20,10 +20,10 @@ void removerCaracteres (char s[], char caracter);
 void main ()
 {
 	//declaração de variáveis
-	char palavra[20], sub[20];
+	char palavra[], sub[];
 	
 	//inicializando a palavra
-	strcpy (palavra, "ALGORITMOS");
+	strcpy (palavra, "Celacanto provoca maremoto");
 	
 	//fazendo algumas chamadas à função 'substring'
 	removerCaracteres (palavra, 'O');

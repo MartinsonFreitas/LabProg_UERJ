@@ -4,8 +4,8 @@
 
 int lelinha (char linha[], int maxlinha);
 void copia (char para[], char de[]);
-/* imprime maior linha entrada */
 
+/* imprime maior linha entrada */
 int main(void)
 {
 
