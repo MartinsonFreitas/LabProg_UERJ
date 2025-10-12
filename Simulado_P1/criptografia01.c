@@ -11,7 +11,7 @@ int obter_val_caract(char c);
 void gerar_chave(char *frase, char *chave);
 void encriptar_frase(char *frase, char *chave, char *frase_encriptada);
 
-// Chamada da função main
+// Main
 int main() {
     char ent_frase_chave[TAM_MAX_FRASE];
     char chave_gerada[TAM_CHAVE + 1];
@@ -35,7 +35,7 @@ int main() {
     return 0;
 }
 
-// Converte as letras para maiúsculas
+// Converter as letras para maiúsculas
 void func_maiscula(char *str) {
     for (int i = 0; str[i] != '\0'; i++) {
         str[i] = toupper(str[i]);
@@ -56,7 +56,7 @@ int obter_val_caract(char c) {
     return 0;
 }
 
-// Gera a chave
+// Gerar a chave
 void gerar_chave(char *frase, char *chave) {
     char frase_temp[TAM_MAX_FRASE];
     strcpy(frase_temp, frase);
@@ -64,9 +64,9 @@ void gerar_chave(char *frase, char *chave) {
 
     char caracter[TAM_CHAVE + 1];
     int contador = 0;
-    int ja_tem_caracter[256] = {0}; // marca caracteres já vistos
+    int ja_tem_caracter[256] = {0}; // marcar caracteres já vistos
 
-    // Processa a frase
+    // Processar a frase
     for (int i = 0; frase_temp[i] != '\0'; i++) {
         char c = frase_temp[i];
         if ((c >= 'A' && c <= 'Z') || c == ',' || c == '.' || c == ' ') {
@@ -78,7 +78,7 @@ void gerar_chave(char *frase, char *chave) {
     }
     caracter[contador] = '\0';
 
-    // Adiciona caracteres que faltam
+    // Adicionar caracteres que faltam
     char caracteres_validos[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,. ";
     
     for (int i = 0; caracteres_validos[i] != '\0'; i++) {
@@ -93,7 +93,7 @@ void gerar_chave(char *frase, char *chave) {
     strcpy(chave, caracter);
 }
 
-// Criptografa uma frase usando a chave
+// Criptografar uma frase usando a chave
 void encriptar_frase(char *frase, char *chave, char *frase_encriptada) {
     char frase_temp[TAM_MAX_FRASE];
     strcpy(frase_temp, frase);
