@@ -33,3 +33,5 @@ que receba uma frase para ser convertida em chave válida e em seguida,
 usando a chave recém-criada, criptografe outra frase lida pelo teclado. (1pt)
 
 Vídeo da resolução em: https://www.youtube.com/watch?v=oUStoesJAcY
+Comando export para o Makefile:==> export CFLAGS="-std=c99 -Wall -Werror -pedantic"
+Comando para compilar no MakeFile:==> make resolveSimulado
