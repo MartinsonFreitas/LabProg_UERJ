@@ -31,3 +31,5 @@ produz a saída “APQSXYVEHHAS CGJKKANU,MZIA” (3pts)
 Sem uso de variável global, escreva a função principal main() 
 que receba uma frase para ser convertida em chave válida e em seguida, 
 usando a chave recém-criada, criptografe outra frase lida pelo teclado. (1pt)
+
+Vídeo da resolução em: https://www.youtube.com/watch?v=oUStoesJAcY
