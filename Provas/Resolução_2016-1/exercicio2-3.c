@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 //Escreva um programa que imprima sua entrada com uma palavra por linha.
 //1seguindo o exemplo do livro

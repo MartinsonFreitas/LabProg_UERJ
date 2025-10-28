@@ -11,7 +11,7 @@ void cria_chave(char chave[], char frase[]);
 void criptografar(char frase_cripto[], char chave[], char frase[]);
 
 
-int main(int argc, char **argv)
+int main()
 {
 	char frase[MAX] = {'\0'};
 	char chave[MAX] = {'\0'};
