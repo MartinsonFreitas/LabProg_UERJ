@@ -16,6 +16,7 @@ int main ()
 	int lelinha (char linha[], int max);
 		
 	soma = 0;
+	
 	while (lelinha(linha, MAXLINHA) > 0){
 		
 		printf ("\t%g\n", soma += atof (linha));
@@ -27,7 +28,6 @@ int main ()
 }
 
 /* atof: converte a string s para um double */
-
 double atof (char s[])
 {
 	double val, pot;
@@ -72,5 +72,6 @@ int lelinha (char s[], int lim)
     }
 
     s[i] = '\0';
+    
     return i;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAXLINHA 10 //tamanho máximo da linha entrada
+#define MAXLINHA 1000 //tamanho máximo da linha entrada
 
 int lelinha (char [], int);
 void copia (char [], char []);

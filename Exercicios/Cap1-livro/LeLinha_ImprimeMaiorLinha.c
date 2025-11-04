@@ -2,17 +2,15 @@
 #define MAXLINHA 1000 //tamanho máximo da linha entrada
 
 int lelinha (char linha[], int maxlinha);
-
 void copia (char para[], char de[]);
+
 /* imprime maior linha entrada */
+int main(void){
 
-int main(void)
-{
-
-	int tam; // tamanho atual da linha
-	int max = 0; // tamanho máximo visto até agora
-	char linha [MAXLINHA]; // linha atual
-	char maior [MAXLINHA]; // maior linha guardada
+	int tam; 				// tamanho atual da linha
+	int max = 0; 			// tamanho máximo visto até agora
+	char linha [MAXLINHA]; 	// linha atual
+	char maior [MAXLINHA]; 	// maior linha guardada
 	
 	while ((tam = lelinha (linha, MAXLINHA)) > 0) {
 		if (tam > max) {
@@ -23,8 +21,7 @@ int main(void)
 	
 	if (max > 0) { // entrada tinha uma linha
 		printf ("%s", maior);
-	}
-	
+	}	
 	
 	return 0;
 }
@@ -56,5 +53,4 @@ void copia (char para[], char de[])
 	while ((para[i] = de[i]) != '\0') {
 	++i;
 	}
-
 }

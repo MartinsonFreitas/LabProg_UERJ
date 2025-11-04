@@ -1,0 +1,1 @@
+dígitos = 6 2 2 2 2 2 2 2 3 3, espaço branco=9, outros=32

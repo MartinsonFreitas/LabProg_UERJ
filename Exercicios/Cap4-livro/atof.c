@@ -1,8 +1,8 @@
 #include <ctype.h>
-/* atof: converte a string s para um double */
 
-double atof (char s[])
-{
+/* atof: converte a string s para um double */
+double atof (char s[]){
+	
 	double val, pot;
 	int i, sinal;
 	

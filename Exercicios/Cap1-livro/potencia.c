@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int pot (int m, int n);
-/* testa função pot */
 
-int main(void)
-{
+/* testa função pot */
+int main(void){
 	for (int i = 0; i < 10; ++i) {
 		printf ("%d %d %d\n", i, pot (2, i), pot (-3, i));
 	}
