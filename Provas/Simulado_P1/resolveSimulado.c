@@ -74,7 +74,6 @@ void comprime(char s[], int c, int i){
 	}
 	s[j]='\0';
 }
-
 void completar_chave(char chave[]){
 	char base[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ,. ";
 	
@@ -113,4 +112,5 @@ int indice(int c){
 		}
 	}
 	return 0;
+
 }
