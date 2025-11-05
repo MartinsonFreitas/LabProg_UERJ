@@ -2,21 +2,19 @@
 #include <ctype.h>
 #include "calc.h"
 
-#define MAXOP 100 // tamanho máximo operando ou operador
-#define NUMERO '0' // sinaliza que número foi encontrado
-
 /* getop: obtém próximo operador ou operando numérico */
 int getop(char s[]){
 	
 	int i, c;
 
+	// Note: isspace está em ctype.h
 	while ((s[0] = c = getch()) == ' ' || c == '\t')
 		;
 		
 	s[1] = '\0';
 	
 	if (!isdigit(c) && c != '.') {
-		return c; 	// não é um número
+		return c; 	// não é um número/operador de sinal
 	}
 	
 	i = 0;

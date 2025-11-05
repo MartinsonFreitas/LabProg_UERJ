@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "calc.h"
+#include "calc.h" // Para os protótipos de push/pop (embora sejam definidos aqui)
 
 #define MAXVAL 100 	// profundidade max. da pilha
-int pp = 0; 		// próxima posicão livre na pilha
+int pp = 0; 		// próxima posicão livre na pilha (Índice sp na imagem)
 double val[MAXVAL]; // pilha de valores
 
 /* push: empilha f na pilha de valores */
-void push(double){
+void push(double f){
 	if (pp < MAXVAL) {
 		val [pp++] = f;
 	} else {
