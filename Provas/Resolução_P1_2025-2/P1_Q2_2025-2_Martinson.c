@@ -87,7 +87,7 @@ int main() {
 // verifica se o numero eh valido
 int valida_num(int n){
 	if (n <= 1 || n >10000) {
-        return FALSE; // Números menores ou iguais a 1 não são primos.
+        return FALSE; 
     } else {
 		return TRUE;
 	}
