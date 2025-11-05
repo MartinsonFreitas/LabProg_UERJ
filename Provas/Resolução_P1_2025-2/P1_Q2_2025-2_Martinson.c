@@ -44,7 +44,7 @@ int main() {
     
     if (!eh_num_valido){
 		printf("Não é numero valido. Fim do programa.\n");
-        return 0; // Encerra se não for Primo Feliz
+        return 0; // Encerra se não for valido
 		}
 
     // Verificação de Primo Feliz
