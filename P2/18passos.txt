@@ -1,0 +1,15 @@
+# 18 passos
+aXXb
+cXXd
+efgh
+ijlm
+n..o
+#solução
+0000
+0000
+0000
+0XX0
+0XX0
+#grupos
+1
+a b c d e f g h i j l m n o
