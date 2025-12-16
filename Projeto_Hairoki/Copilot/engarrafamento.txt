@@ -1,0 +1,16 @@
+XX.gga
+XX.gbh
+iicdhh
+jjkemn
+jkkfmn
+#solução
+000000
+000000
+000000
+0000XX
+0000XX
+4
+a b c d e f
+g j
+h k
+m n
